@@ -44,6 +44,12 @@ const Login = () => {
   return (
     <Layout title="Register - Ecommer App">
     <div className="form-container" >
+    <h5 style={{color:"red",textAlign:'center'}}>DEMO  USER LOGIN Id</h5>
+                <p>Email - user@gmail.com</p>
+                <p>Password - 12345</p>
+                <h5 style={{color:"red",textAlign:'center'}}>DEMO  ADMIN LOGIN Id</h5>
+                <p>Email - admin@gmail.com</p>
+                <p>Password - 12345</p>
       <form onSubmit={handleSubmit}>
         <h4 className="title">LOGIN FORM</h4>
         <div className="mb-5">
